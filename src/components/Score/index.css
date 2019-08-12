@@ -1,0 +1,8 @@
+.score {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.score i {
+  padding-right: 8px;
+}

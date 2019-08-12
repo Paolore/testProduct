@@ -1,0 +1,50 @@
+.order-page {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+}
+
+.order-page-details {
+  width: 250px;
+  margin-right: 38px;
+}
+
+.order-page-detail-title {
+  color: var(--title-color);
+  font-size: var(--title-size);
+  font-weight: var(--title-weight);
+  width: 100px;
+  margin-bottom: 32px;
+}
+
+.order-page-details .order-delivery {
+  margin-bottom: 40px;
+}
+
+.order-page-details .order-detail-list {
+  margin-bottom: 80px;
+}
+
+.order-page .total {
+  margin-bottom: 25px;
+}
+
+.order-page-checkout {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.order-page-counter {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-page-counter .counter {
+  width: 90px;
+}
+
+.order-page-persons {
+  font-size: var(--font-size-xs);
+  font-weight: var(--title-weight);
+}

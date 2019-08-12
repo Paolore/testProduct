@@ -1,0 +1,27 @@
+.interval {
+  background: white;
+  width: 90px;
+  bottom: -7px;
+  left: -10px;
+  border-radius: 10px;
+  position: absolute;
+  height: 16px;
+  padding: 20px 10px 10px 20px;
+}
+
+.interval .time {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 2px;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+.interval .measure {
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}

@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.navigation-menu {
+  display: flex;
+
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.logo-name {
+  margin-left: 15px;
+  font-size: 24px;
+  font-weight: 700;
+}

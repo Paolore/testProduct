@@ -1,0 +1,13 @@
+.counter {
+  max-width: 120px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  border: 1px solid #eaecea;
+  border-radius: 5px;
+}
+
+.counter-text {
+  padding: 0;
+  margin: 0;
+}

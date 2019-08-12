@@ -1,0 +1,42 @@
+.order-delivery {
+  background: #503e9d;
+  border-radius: 15px;
+  height: 90px;
+  padding: 20px;
+}
+
+.order-delivery-address-container {
+  display: flex;
+}
+
+.order-delivery-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-delivery-link {
+  color: #fcd661;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.order-delivery-text {
+  font-size: 12px;
+  color: white;
+}
+
+.order-delivery-icon {
+  background: rgba(252, 214, 97, 0.2);
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  color: #fcd661;
+  text-align: center;
+}
+
+.order-delivery-time {
+  font-size: 12px;
+  color: white;
+  margin-left: -25px;
+}

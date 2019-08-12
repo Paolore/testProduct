@@ -1,33 +1,85 @@
+:root {
+  --main-font: 'Open Sans';
+  --title-size: 1.2em;
+  --title-color: black;
+  --title-weight: 600;
+  --font-size-xs: 12px;
+}
+
 .App {
-  text-align: center;
+  width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto 330px;
+  grid-template-rows: 1fr;
+  grid-template-areas: '. .';
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.image-container {
+  width: 250px;
+  height: 150px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.restaruant-info {
   display: flex;
   flex-direction: column;
+}
+
+.restaurant-details {
+  display: flex;
+  margin-top: 5px;
+}
+
+.restaurant-detail {
+  font-size: 12px;
+  color: #bdbdbd;
+  margin-left: 8px;
+  font-weight: 600;
+  padding: 0;
+  margin-top: 0;
+}
+
+.button-icon {
+  background: none;
+  border: none;
+  padding: 5px;
+}
+.button-icon i {
+  font-weight: 400;
+}
+
+.restaurant-header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.restaurant-header-title {
+  color: var(--title-color);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.delivery-button {
+  border: none;
+  background: #fb6d3b;
+  border-radius: 15px;
+  padding: 10px;
+  height: 48px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  font-size: 14px;
+  width: 160px;
 }

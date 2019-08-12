@@ -1,0 +1,47 @@
+.order-detail-item,
+.order-detail-item-description {
+  display: flex;
+}
+
+.order-detail-item {
+  align-items: center;
+}
+
+.order-detail-item-image-container {
+  max-width: 60px;
+  max-height: 30px;
+  border-radius: 5px;
+}
+
+.order-detail-item-image,
+.order-detail-item-delivery {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.order-detail-item-delivery {
+  width: 60px;
+  height: 30px;
+  background: rgba(252, 214, 97, 0.2);
+  color: #fcd661;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.order-detail-item-description,
+.order-detail-item-unitPrice {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.order-detail-item-description {
+  margin-left: 20px;
+  width: 120px;
+}
+
+.order-detail-item-unitPrice {
+  color: #bdbdbd;
+  padding-left: 20px;
+}
